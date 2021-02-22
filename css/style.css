@@ -58,7 +58,7 @@ textarea {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-image: url("./background.png");
+  background-image: url("../background.png");
   width: 1024px;
   height: 512px;
   padding-right: 3.0rem;
