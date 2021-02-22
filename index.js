@@ -36,18 +36,18 @@ add.onclick = () => {
         const number = document.querySelectorAll(".number");
        
     if(table.childElementCount > 3) {
-            prize.src="bronze.png"
+            prize.src="./bronze.png"
     }
 
     if(table.childElementCount < 3) {
-        prize.src="gold.png"
+        prize.src="./gold.png"
 }
 
     if(table.childElementCount > 6) {
         table.classList.add("table-sml")
         number.forEach(number => {
         number.classList.add("number-sml")
-        silver.src ="silver.png"
+        silver.src ="./silver.png"
         prize.src ="";
         })
 
