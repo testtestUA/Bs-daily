@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+}
+
+textarea {
+  font-size: 2rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-ctr {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-ai-ctr {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-image: url("/background.png");
+  width: 1024px;
+  height: 512px;
+  padding-right: 3.0rem;
+  padding-top: 12.7rem;
+}
+
+.table {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 110px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 1;
+  width: 566px;
+  height: 260px;
+  background-color: #00A940;
+  border: solid 1px #0EF84F;
+  color: #fff;
+  font-size: 3.6rem;
+  padding-top: 1rem;
+}
+
+.number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100%;
+  border: solid #fff 2px;
+  font-size: 2.4rem;
+  margin-right: 6.1rem;
+  width: 38px;
+  height: 38px;
+}
+
+.num-win {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.number-sml {
+  width: 28px;
+  height: 28px;
+  font-size: 1.8rem;
+  margin-left: 4.1rem;
+  margin-right: 3.1rem;
+  margin-bottom: 2rem;
+}
+
+.table-sml {
+  font-size: 2.4rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  padding-left: 0;
+  padding-top: 1.5rem;
+}
+
+.description {
+  padding-top: 12rem;
+  margin-right: 4rem;
+  color: #fff;
+  font-size: 2.4rem;
+  max-width: 356px;
+}
+
+.prize {
+  position: absolute;
+  left: -70px;
+  top: -115px;
+}
+
+.silver {
+  position: absolute;
+  top: 0;
+  right: 120px;
+}
+
+.if {
+  width: 50vw;
+  height: 50vh;
+  overflow: scroll;
+}
+/*# sourceMappingURL=style.css.map */
